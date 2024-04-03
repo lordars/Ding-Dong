@@ -1,6 +1,6 @@
 const vsenha = document.querySelector("#senha");
 
-
+let audio = new Audio("senha.mp3")
 
 
 
@@ -41,7 +41,7 @@ else if(e.key == "r" || e.key == "R"){
 localStorage.setItem("senhaNormal",senhaNormal)
 localStorage.setItem("senhaPreferencial",senhaPreferencial)
 localStorage.setItem("ultSenha",ultSenha)
-let audio = new Audio("senha.mp3")
+
 
 });
 
