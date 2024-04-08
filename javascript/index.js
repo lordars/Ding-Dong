@@ -56,4 +56,50 @@ function mostrarSenha(){
 }
 
 
+  
+
+function nextSenhaNormal(){
+    senhaNormal++;
+    ultSenha= "N";
+    audio.play();
+    mostrarSenha();
+}
+
+function previusSenhaNormal(){
+    if(senhaNormal >1)
+    senhaNormal--;
+    ultSenha= "N";
+    audio.play();
+    mostrarSenha();
+}
+
+
+function nextSenhaPreferencial(){
+    senhaPreferencial++;
+    ultSenha= "P";
+    audio.play();
+    mostrarSenha();
+}
+
+function previusSenhaPreferencial(){
+    if(senhaPreferencial >1)
+    senhaPreferencial--;
+    ultSenha= "P";
+    audio.play();
+    mostrarSenha();
+}
+
+
+
+function resetsSenhas(){
+    senhaNormal= 0;
+    senhaPreferencial=0
+    ultSenha="N";
+    audio.play();
+    mostrarSenha();
+
+}
+
+
+
 

@@ -18,8 +18,10 @@ header {
 main {
     height: 80vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 12px;
 }
 
 
@@ -41,6 +43,23 @@ main {
     padding: 20px;
     background-color: blue;
     text-align: center;
+
+
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: blue;
+    text-align: center;
+
+}
+
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
 
 
 }
